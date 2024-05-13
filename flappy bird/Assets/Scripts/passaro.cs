@@ -19,8 +19,11 @@ public class passaro : MonoBehaviour
             this.Impulsionar();
         }
     }
+
+    private float velocidade = 3;
+
     void Impulsionar()
     {
-        this.fisica.AddForce(Vector2.up *3, ForceMode2D.Impulse);
+        this.fisica.AddForce(Vector2.up *velocidade, ForceMode2D.Impulse);
     }
 }
