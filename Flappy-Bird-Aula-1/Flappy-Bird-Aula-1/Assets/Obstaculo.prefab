@@ -47,6 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 0.6
+  variacaoposicaoY: 2
 --- !u!1 &5436478923308816289
 GameObject:
   m_ObjectHideFlags: 0
